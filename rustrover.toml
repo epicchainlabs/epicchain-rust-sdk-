@@ -1,0 +1,14 @@
+[build]
+target = "my-rust-image"
+auto-build = true
+
+[[build.mounts]]
+host = "C:\\Users\\liaoj\\git\\NeoRust"
+container = "/workspace"
+
+[run]
+target = "my-rust-image"
+
+[[run.mounts]]
+host = "C:\\Users\\liaoj\\git\\NeoRust"
+container = "/workspace"
